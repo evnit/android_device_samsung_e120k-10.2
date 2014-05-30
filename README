@@ -3,3 +3,14 @@ Copyright 2012 - The CyanogenMod Project
 Device configuration for Samsung Galaxy S II e120k.
 
 WORK IN PROGRESS. WILL EAT YOUR CAT.
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+<project name="CyanogenMod/android_device_samsung_msm8660-common" path="device/samsung/msm8660-common" remote="github" revision="cm-10.2" />
+<project name="evnit/android_device_samsung_celox-10.2" path="device/samsung/celox-common" remote="github" revision="cm-10.2" />
+<project name="CyanogenMod/android_device_samsung_qcom-common" path="device/samsung/qcom-common" remote="github" revision="cm-10.2" />
+<project name="evnit/android_device_samsung_e120k-10.2" path="device/samsung/e120k" remote="github" revision="cm-10.2" />
+<project name="evnit/android_vendor_samsung_e120k-10.2" path="vendor/samsung/e120k" remote="github" revision="cm-10.2" />
+<project name="evnit/android_kernel_samsung_msm8660-common-10.2" path="kernel/samsung/msm8660-common" remote="github" revision="cm-10.2" />
+</manifest>
