@@ -23,6 +23,7 @@ DEVICE_PACKAGE_OVERLAYS += device/samsung/e120k/overlay
 # Ramdisk
 PRODUCT_COPY_FILES += \
     device/samsung/e120k/ramdisk/init.qcom.usb.rc:root/init.qcom.usb.rc \
+    device/samsung/e120k/ramdisk/twrp.fstab:recovery/root/etc/twrp.fstab
 
 # BT firmware
 PRODUCT_COPY_FILES += \
